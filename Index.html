@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vivian Mutai's portfolio showcasing skills in tech, data, and design." />
+  <meta name="keywords" content="Vivian Mutai, Portfolio, Tech, Data, Design" />
+  <meta name="author" content="Vivian Mutai" />
+  <title>Vivian Mutai | Portfolio</title>
+    <img src="https://via.placeholder.com/150" alt="Placeholder image of Vivian Mutai" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 1.5em;
+      margin-bottom: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 2em;
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+
+    h2 {
+      color: #4CAF50;
+    }
+
+    form label {
+      display: block;
+      margin-top: 1em;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.5em;
+      margin-top: 0.3em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      margin-top: 1em;
+      padding: 0.6em 1.2em;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1em;
+    }
+
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-link:focus {
+      left: auto;
+      top: auto;
+      width: auto;
+      height: auto;
+      background: #000;
+      color: #fff;
+      padding: 0.5em;
+      z-index: 1000;
+    }
+
+    a.project-link {
+      display: inline-block;
+      margin-top: 0.5em;
+      color: #4CAF50;
+      text-decoration: underline;
+    }
+
+    .social {
+      margin-top: 1em;
+    }
+
+    .social a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Main navigation">
+      <a href="#main-content" class="skip-link">Skip to content</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Vivian Mutai</h1>
+    <p>Tech Enthusiast | Data Explorer | Creative Thinker</p>
+  </header>
+
+  <main id="main-content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I’m Vivian, a passionate tech explorer with a background in Business IT, cloud computing, and data annotation. I create meaningful digital solutions while focusing on accessibility and thoughtful design.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python & Data Analysis</li>
+        <li>HTML5 & CSS3</li>
+        <li>Cloud Computing (AWS Certified)</li>
+        <li>SEO & Accessibility Principles</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Ubrutech: Bestie Mental Wellness Initiative</h3>
+        <p>An outdoor mental wellness program designed to help busy adults reconnect with self-awareness through nature, movement, and nostalgia.</p>
+        <a href="https://github.com/Vimutai/bestie-website-" target="_blank" class="project-link" rel="noopener">Visit Project</a>
+      </article>
+      <article>
+        <h3>Simple TaskApp</h3>
+        <p>A Python-based console app to track taska using dictionaries and file writing techniques.</p>
+        <a href="https://github.com/Vimutai/TaskApp" target="_blank" class="project-link" rel="noopener">View on GitHub</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form aria-label="Contact Form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+
+      <div class="social">
+        <p>Connect with me on <a href="https://www.linkedin.com/in/vivian-mutai" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vivian Mutai. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
